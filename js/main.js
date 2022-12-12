@@ -1,3 +1,4 @@
+//ejercicio 1--------------------------------------
 let nombre="Abraham";
 nombre = nombre.toUpperCase();
 let letra = "";
@@ -17,7 +18,15 @@ let contFinal = 0;
             letra = nombre.charAt(i);
         }
     }
-
 console.log(letra, contFinal);
 
-//
+//Ejercicio 2-----------------------------------------
+function reves(str) {
+    let nuevaStr = "";
+    for (let index = str.length-1; index >= 0; index--) {
+        nuevaStr += str.charAt(index);
+    }
+    return nuevaStr;
+}
+
+//Ejercicio 3 Nos ayuda a saber si una palabra es un palíndromo.
