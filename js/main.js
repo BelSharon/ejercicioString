@@ -30,3 +30,10 @@ function reves(str) {
 }
 
 //Ejercicio 3 Nos ayuda a saber si una palabra es un palíndromo.
+function esPalindromo(str) {
+    str = str.toLowerCase();
+    str = str.replaceAll(" ","");
+    if (reves(str)==str)
+        return true;
+    return false;
+}
